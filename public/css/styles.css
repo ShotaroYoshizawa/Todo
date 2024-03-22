@@ -33,6 +33,14 @@ a.my-navbar-item:hover {
   color: #ffffff;
 }
 
+.folder-lists.active {
+  display:none;
+}
+
+.folder-lists.no-active {
+  display:none;
+}
+
 .list-group-item {
   border-radius: 4px 4px 4px 4px !important;
   border-top: none !important;
@@ -49,7 +57,8 @@ a.my-navbar-item:hover {
 .table td:nth-child(2),
 .table td:nth-child(3),
 .table td:nth-child(4),
-.table td:nth-child(5) {
+.table td:nth-child(5) ,
+.table td:nth-child(6) {
   white-space: nowrap;
   width: 1px;
 }
